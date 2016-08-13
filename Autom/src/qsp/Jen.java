@@ -15,7 +15,8 @@ public class Jen {
 	WebDriver driver=new FirefoxDriver();
 	driver.get("http://www.gmail.com");
 	System.out.println("hi");
-	//ExtentReports e=
+	ExtentReports e=new ExtentReports("./ExtentReport.html");
+e.startTest("test1");
 	
 	}
 }
